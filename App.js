@@ -1,9 +1,11 @@
 import React,{Component} from 'react';
-import { View,text } from 'react-native';
+import { View,Text } from 'react-native';
 import { firebase } from '@react-native-firebase/app'
+import auth from '@react-native-firebase/auth'
+
 
 import {NavigationContainer} from '@react-navigation/native';
-import {createStackNavigator} from '@react-navigation/native';
+import {createStackNavigator} from '@react-navigation/stack';
 import LandingScreen from './components/auth/Landing'
 import RegisterScreen from './components/auth/Register'
 
